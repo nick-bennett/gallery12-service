@@ -95,11 +95,20 @@ public class User {
     return created;
   }
 
+  /**
+   * Returns the most recent datetime on which the user submitted a request.
+   *
+   * @return
+   */
   @NonNull
   public Date getConnected() {
     return connected;
   }
 
+  /**
+   *
+   * @param connected
+   */
   public void setConnected(@NonNull Date connected) {
     this.connected = connected;
   }
